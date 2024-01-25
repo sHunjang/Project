@@ -1,0 +1,6 @@
+test: '/Users/seunghunjang/Desktop/Project/Train_IMG'
+train: '/Users/seunghunjang/Desktop/Project/Train_IMG'
+val: '/Users/seunghunjang/Desktop/Project/Train_IMG'
+
+nc: 10
+names: ['Date_1_T', 'Date_1_B', 'Date_2_T', 'Date_2_B', 'Date_3_T', 'Date_3_B', 'Date_4_T', 'Date_4_B', 'Date_5_T', 'Date_5_B']
