@@ -1,7 +1,9 @@
 from ultralytics import YOLO
 
+dataset_source = '/Users/seunghunjang/Desktop/Project/data.yaml'
+
 # Model Load
-model = YOLO('yolov8m.pt')
+model = YOLO('yolov8s-cls.pt')
 
 # Model Train
-model.train(data='data.yaml', epochs=100, imgsz=640)
+model.train(data=dataset_source, epochs=10, imgsz=640)

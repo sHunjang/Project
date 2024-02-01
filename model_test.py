@@ -4,6 +4,6 @@ import ultralytics
 # Model Load
 model = YOLO('best.pt')
 
-source = '/Users/seunghunjang/Desktop/Project/EX_IMG/*.jpg'
+source = '/Users/seunghunjang/Desktop/Project/IMG'
 
 result = model.predict(source, save=True)
