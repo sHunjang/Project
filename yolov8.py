@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-dataset_source = '/Users/seunghunjang/Desktop/Project/data.yaml'
+dataset_source = '/Users/seunghunjang/Desktop/YOLO_Detect/data.yaml'
 
 # Model Load
 model = YOLO('yolov8m.pt')
