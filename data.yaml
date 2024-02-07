@@ -1,6 +1,6 @@
-test: '/Users/seunghunjang/Desktop/Project/IMG'
-train: '/Users/seunghunjang/Desktop/Project/IMG'
-val: '/Users/seunghunjang/Desktop/Project/IMG'
+test: '/Users/seunghunjang/YOLO_Detect//IMG'
+train: '/Users/seunghunjang/Desktop/YOLO_Detect/IMG'
+val: '/Users/seunghunjang/Desktop/YOLO_Detect/IMG'
 
 nc: 1
 names: ['Train_Data']
